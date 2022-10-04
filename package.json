@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "target": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel  index.html ",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Meelad Sultan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.4.11",
+    "core-js": "^3.25.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.55.0"
+  }
+}
